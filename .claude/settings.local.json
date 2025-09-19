@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//e/work/ofdbak/pdf-ofd-converter/**)",
+      "Bash(mkdir:*)",
+      "Bash(javac:*)",
+      "Bash(mvn compile:*)",
+      "Bash(./quick-start.bat)",
+      "Bash(chmod:*)",
+      "Bash(./run.sh)",
+      "Bash(echo $JAVA_HOME)",
+      "Bash(\"/e/work/jdk/jdk-24/bin/java\" -version)",
+      "Read(//c/Users/Administrator/.m2/repository/org/apache/pdfbox/pdfbox/**)",
+      "Read(//c/Users/Administrator/.m2/repository/**)",
+      "Read(//e/work/ofdbak/**)",
+      "Read(//e/work/ofdrw-2.3.7/ofdrw-converter/target/classes/**)",
+      "Bash(\"/e/work/jdk/jdk-24/bin/javac\" -cp \"../ofdrw-converter/target/classes\" src/main/java/org/ofdrw/gui/PDFToOFDConverter.java)",
+      "Bash(\"/e/work/jdk/jdk-24/bin/javac\" -cp \"../ofdrw-converter/target/classes:../ofdrw-core/target/classes:../ofdrw-graphics2d/target/classes:../ofdrw-layout/target/classes:../ofdrw-pkg/target/classes\" src/main/java/org/ofdrw/gui/PDFToOFDConverter.java)",
+      "Bash(\"/e/work/jdk/jdk-24/bin/java\" -cp \"../ofdrw-converter/target/classes\" org.ofdrw.converter.GeneralConvertException)",
+      "Bash(mvn exec:java:*)",
+      "Bash(mvn:*)",
+      "Bash(\"/e/work/jdk/jdk-24/bin/java\" -jar target/pdf2ofd-gui-1.0.0.jar)",
+      "Bash(java:*)",
+      "Bash(find:*)",
+      "Bash(unzip:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
